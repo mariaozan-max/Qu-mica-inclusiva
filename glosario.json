@@ -1,0 +1,19 @@
+[
+ {"id":"quimica","termino":"Química","def":"Ciencia natural que estudia la materia, sus propiedades, su estructura, sus transformaciones y las leyes que rigen esas transformaciones."},
+ {"id":"materia","termino":"Materia","def":"Todo aquello que tiene masa e inercia y ocupa un lugar en el espacio. Por ejemplo: el aire, el agua o el vidrio de un vaso."},
+ {"id":"masa","termino":"Masa","def":"Cantidad de materia contenida en un objeto. No cambia según el lugar donde se mida. Se expresa en kilogramos o gramos."},
+ {"id":"peso","termino":"Peso","def":"Fuerza con que la Tierra atrae a un objeto. Depende del lugar: en la Luna un objeto pesa menos que en la Tierra."},
+ {"id":"inercia","termino":"Inercia","def":"Propiedad por la cual un objeto sigue en el estado en que se encuentra (en reposo o en movimiento recto y parejo) mientras no actúe una fuerza sobre él."},
+ {"id":"cuerpo","termino":"Cuerpo","def":"Porción limitada de materia. Tiene límites reales y peso. Por ejemplo: un lápiz, un litro de agua o un balón de aire."},
+ {"id":"sustancia","termino":"Sustancia","def":"Clase especial de materia. En las mismas condiciones, siempre muestra las mismas propiedades físicas y químicas. Por ejemplo: el agua o el hierro."},
+ {"id":"propiedad","termino":"Propiedad","def":"Una descripción de algún tipo sobre la materia. Cuantas más propiedades conocemos de una sustancia, mejor podemos identificarla."},
+ {"id":"fisica","termino":"Propiedad física","def":"Respuesta de una sustancia a un estímulo que no cambia su composición. Por ejemplo: masa, densidad, estado de agregación, punto de fusión."},
+ {"id":"quimicaprop","termino":"Propiedad química","def":"Respuesta de una sustancia a un estímulo que cambia su composición. Se observa en las reacciones químicas, como el hierro en contacto con un ácido."},
+ {"id":"extensiva","termino":"Propiedad extensiva","def":"Propiedad que depende de la cantidad de materia, como la masa, el peso y el volumen. También se llama propiedad general."},
+ {"id":"intensiva","termino":"Propiedad intensiva","def":"Propiedad que no depende de la cantidad de materia, como la densidad o el punto de ebullición. Permite identificar una sustancia. También se llama propiedad específica."},
+ {"id":"densidad","termino":"Densidad","def":"Masa de una sustancia por unidad de volumen. Es una propiedad intensiva. La del aluminio es 2,698 g/cm³ a 20 °C."},
+ {"id":"organica","termino":"Química orgánica","def":"Rama de la química que estudia sobre todo los compuestos del carbono."},
+ {"id":"inorganica","termino":"Química inorgánica","def":"Rama de la química que trata todos los elementos y sus compuestos: metales y no metales, su estructura, propiedades y aplicaciones."},
+ {"id":"fisicoquimica","termino":"Físico-química","def":"Rama de la química que estudia el equilibrio y la termodinámica de las reacciones, la energía asociada a ellas y la estructura de las moléculas."},
+ {"id":"analitica","termino":"Química analítica","def":"Rama de la química que desarrolla métodos para determinar la composición de las sustancias y sus mezclas. El análisis puede ser cualitativo o cuantitativo."}
+]

@@ -1,0 +1,50 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light}body{margin:0;font:14px system-ui}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>Química Inclusiva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Lexend:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/art.css">
+<link rel="stylesheet" href="css/games.css">
+<link rel="stylesheet" href="css/accessibility.css">
+
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="#inicio" aria-label="Química Inclusiva, ir al inicio">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 19a1.6 1.6 0 0 0 1.4 2.4h12.2a1.6 1.6 0 0 0 1.4-2.4L14 9V3M7.5 15h9"/></svg></span>
+      <span class="brand-txt"><b>Química Inclusiva</b><small>La puerta al mundo de la IA</small></span>
+    </a>
+    <div class="tools">
+      <span id="timer" class="timer" role="timer" aria-label="Tiempo de estudio" hidden>00:00</span>
+      <button id="btn-pause" class="btn small" type="button" aria-label="Pausar"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg><span class="pname">Pausa</span></button>
+      <span id="profile-slot"></span>
+      <button id="btn-a11y" class="btn small primary" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="a11y-panel"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="7.2" r="1" fill="currentColor"/><path d="M7.5 10.2l4.5.8 4.5-.8M12 11v3.5M12 14.5l-2.2 3.3M12 14.5l2.2 3.3"/></svg><span class="pname">Accesibilidad</span></button>
+    </div>
+  </div>
+</header>
+
+<div class="shell">
+  <aside class="side"><nav id="sidenav" aria-label="Menú lateral"></nav></aside>
+  <main id="main" tabindex="-1"><div id="view" class="view"><p>Cargando…</p></div></main>
+</div>
+<nav class="bottomnav" id="bottomnav" aria-label="Navegación principal"></nav>
+
+<aside id="a11y-panel" class="panel" role="dialog" aria-modal="true" aria-labelledby="a11y-title" hidden></aside>
+<div id="dialog" class="scrim" hidden></div>
+<div id="pause" class="pause-screen" hidden role="alertdialog" aria-labelledby="pause-h">
+  <div class="stack"><h2 id="pause-h">En pausa</h2><p id="pause-msg">El tiempo de estudio está detenido. Volvé cuando quieras.</p><button id="btn-resume" class="btn primary big" type="button">Reanudar</button></div>
+</div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<noscript><p style="padding:1rem">Esta página necesita JavaScript para funcionar.</p></noscript>
+
+<script src="js/util.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/accessibility.js"></script>
+<script src="js/art.js"></script>
+<script src="js/games.js"></script>
+<script src="js/games-more.js"></script>
+<script src="js/modules.js"></script>
+<script src="js/main.js"></script>
+</body></html>

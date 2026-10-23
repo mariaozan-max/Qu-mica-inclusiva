@@ -1,0 +1,55 @@
+{
+ "id": 1,
+ "titulo": "El Mundo de la Química",
+ "fuente": "Adaptado del Módulo de Química 2023, Universidad Nacional de San Luis (Dr. Miguel Ángel Zamora y Dr. José Antonio Salonia), páginas 1 a 7.",
+ "bloques": [
+  {
+   "id": "quimica", "titulo": "¿Qué es la química?",
+   "visual": {"termino": "Química", "definicion": "Rama de las ciencias naturales que estudia la {{materia|materia}}, sus propiedades, su estructura, sus transformaciones y las leyes que rigen esas transformaciones.", "ejemplo": "El agua puede convertirse en dos gases: hidrógeno y oxígeno. Los químicos estudian qué es el agua y por qué y cómo se transforma.", "mapa": [["Orgánica", "Compuestos del carbono"], ["Inorgánica", "Todos los elementos y sus compuestos"], ["Físico-química", "Equilibrio, energía y estructura de las moléculas"], ["Analítica", "Métodos para saber qué hay en una muestra y cuánto"]]},
+   "pasos": ["La química estudia la materia.", "También estudia sus propiedades, su estructura y sus transformaciones.", "Ejemplo: el agua se puede transformar en hidrógeno y oxígeno.", "La química se divide en ramas: orgánica, inorgánica, físico-química y analítica.", "Una muestra se puede analizar de forma cualitativa (qué componentes tiene) o cuantitativa (cuánto hay de cada uno)."],
+   "texto": "La química es una rama de las ciencias naturales que estudia la materia, sus propiedades, su estructura, sus transformaciones y las leyes que rigen esas transformaciones. Por ejemplo, el agua puede convertirse en dos gases, hidrógeno y oxígeno. Los químicos estudian qué es el agua, por qué y cómo puede convertirse en esos gases. La química tiene cuatro divisiones básicas. La química orgánica estudia sobre todo los compuestos del carbono. La química inorgánica trata todos los elementos y sus compuestos. La físico-química estudia el equilibrio y la termodinámica de las reacciones, la energía asociada y la estructura de las moléculas. La química analítica desarrolla métodos para determinar la composición de las sustancias y sus mezclas."
+  },
+  {
+   "id": "materia", "titulo": "Materia",
+   "visual": {"termino": "Materia", "definicion": "Todo aquello que tiene <mark class=\"key\">masa</mark> e <mark class=\"key\">inercia</mark> y ocupa un lugar en el espacio.", "ejemplo": "Es materia el aire que respiramos, el agua que bebemos y el vidrio de un vaso."},
+   "pasos": ["Materia es todo lo que tiene masa e inercia.", "Además, ocupa un lugar en el espacio.", "Todo lo que cumple estas condiciones es material.", "Ejemplos: el aire, el agua, el vidrio de un vaso."],
+   "texto": "La química estudia la materia. Materia es todo aquello que tiene masa e inercia y ocupa un lugar en el espacio. Por lo tanto, todo lo que cumpla con estas condiciones es considerado material. Es materia el aire que respiramos, el agua que bebemos y el vidrio que forma un vaso."
+  },
+  {
+   "id": "masa", "titulo": "Masa",
+   "visual": {"termino": "Masa", "definicion": "<mark class=\"key\">Cantidad de materia</mark> contenida en un objeto. Es invariable.", "ejemplo": "Se mide pesando el objeto y se expresa en kilogramos o gramos. No hay que confundirla con el tamaño, que es la capacidad para ocupar espacio."},
+   "pasos": ["La masa es la cantidad de materia de un objeto.", "No cambia: es invariable.", "Se mide pesando el objeto.", "Sus unidades son el kilogramo y el gramo.", "No es lo mismo que el tamaño."],
+   "texto": "La masa es la cantidad de materia contenida en un objeto y es invariable. La masa de un objeto se mide pesándolo, y se expresa en kilogramo o gramo. No hay que confundir la masa con el tamaño, que es la capacidad para ocupar espacio."
+  },
+  {
+   "id": "peso", "titulo": "Peso",
+   "visual": {"termino": "Peso", "definicion": "<mark class=\"key\">Fuerza</mark> con que un objeto es atraído por la Tierra. Su valor cambia según el lugar.", "ejemplo": "Un astronauta que pesa 78 kgr en la Tierra pesa solo 13 kgr en la Luna, donde la atracción es 1/6 de la terrestre. En el espacio exterior, donde la gravedad es cero, no tiene peso. Su masa no cambió.", "formula": "P = m · g"},
+   "pasos": ["El peso es la fuerza con que la Tierra atrae a un objeto.", "Se calcula con P = m · g (peso = masa por gravedad).", "La gravedad cambia según el lugar, así que el peso también cambia.", "La masa no depende del lugar. El peso sí.", "Ejemplo: 78 kgr en la Tierra son 13 kgr en la Luna y 0 en el espacio exterior."],
+   "texto": "El peso es la fuerza con que un objeto es atraído por la Tierra. Se calcula como peso igual a masa por gravedad. Un astronauta que pesa 78 kilogramos peso en la Tierra, solo pesa 13 en la Luna, porque la atracción de la gravedad de la Luna es un sexto de la terrestre. En el espacio exterior, donde la gravedad es cero, no tiene peso. Por eso la masa es una propiedad que no depende del lugar donde se determine, pero el peso sí."
+  },
+  {
+   "id": "inercia", "titulo": "Inercia",
+   "visual": {"termino": "Inercia", "definicion": "Propiedad por la cual un objeto tiende a <mark class=\"key\">seguir en el estado en que se encuentra</mark> mientras no actúe sobre él una fuerza.", "ejemplo": "Al arrancar un coche con violencia, los pasajeros son proyectados hacia atrás. Si tirás de un papel con una moneda encima, la moneda queda en el mismo lugar."},
+   "pasos": ["Un objeto en reposo sigue en reposo si nadie lo empuja.", "Un objeto que se mueve en línea recta y parejo sigue así si nadie lo frena.", "Eso es la inercia: resistencia a cambiar de estado.", "Ejemplo: al arrancar un coche, los pasajeros van hacia atrás.", "Ejemplo: la moneda sobre un papel no sigue al papel si se lo tira rápido."],
+   "texto": "La inercia es la propiedad por la cual un objeto tiende a seguir en el estado en que se encuentra mientras no actúe sobre él una fuerza. Dicho de otro modo, es la resistencia que un objeto ofrece a cualquier cambio en su estado de reposo o movimiento rectilíneo y uniforme. Al arrancar un coche con violencia, los pasajeros son proyectados hacia atrás. Si se coloca una moneda sobre un papel y se tira de éste bruscamente, la moneda queda en el mismo lugar."
+  },
+  {
+   "id": "cuerpo", "titulo": "Cuerpo y sustancia",
+   "visual": {"termino": "Cuerpo y sustancia", "comparar": [["Cuerpo", "Porción limitada de {{materia|materia}}. Tiene límites reales y peso.", "Un lápiz, un litro de agua, un balón de aire."], ["Sustancia", "Clase especial de materia. En las mismas condiciones siempre muestra las mismas propiedades.", "El agua, el hierro, el azúcar común."]]},
+   "pasos": ["Un cuerpo es una porción limitada de materia.", "Ejemplos de cuerpo: un lápiz, un litro de agua, un balón de aire.", "Una sustancia es una clase especial de materia.", "Una sustancia muestra siempre las mismas propiedades en las mismas condiciones.", "Ejemplos de sustancia: el agua y el hierro."],
+   "texto": "Un cuerpo es una porción limitada de materia. Todo cuerpo tiene límites reales y peso. Son cuerpos un lápiz, un litro de agua, un balón de aire. Una sustancia es una clase especial de materia. Una sustancia determinada presenta siempre las mismas propiedades físicas y químicas bajo idénticas condiciones de observación. Son sustancias el agua y el hierro."
+  },
+  {
+   "id": "propiedades", "titulo": "Propiedades físicas y químicas",
+   "visual": {"termino": "Propiedades", "definicion": "Una propiedad es simplemente alguna descripción de algún tipo. Se clasifican de dos maneras. La primera es según cambien o no la composición de la sustancia.", "comparar": [["Física", "Respuesta a un estímulo que <mark class=\"key\">no cambia la composición</mark> de la sustancia.", "Masa, densidad, estado de agregación, forma cristalina, punto de fusión."], ["Química", "Respuesta a un estímulo que <mark class=\"key\">cambia la composición</mark> de la sustancia.", "El hierro en un ácido deja de ser hierro. La electricidad separa el agua en oxígeno e hidrógeno (electrólisis)."]]},
+   "pasos": ["Una propiedad es una descripción de la materia.", "Propiedad física: la sustancia responde y su composición NO cambia.", "Ejemplos: masa, densidad, punto de fusión.", "Propiedad química: la sustancia responde y su composición SÍ cambia.", "Ejemplo: el hierro en ácido clorhídrico deja de ser hierro.", "Una sola propiedad no alcanza para reconocer una sustancia."],
+   "texto": "Una propiedad de la materia es simplemente alguna descripción de algún tipo. Las propiedades físicas son las que se manifiestan como respuestas a estímulos que no cambian la composición de la sustancia. Entre ellas se incluyen la masa, la densidad, el estado de agregación, la forma cristalina y el punto de fusión. Las propiedades químicas son las que se manifiestan como respuestas a estímulos que cambian la composición de la sustancia. Se asocian a las reacciones químicas. Por ejemplo, si un trozo de hierro se introduce en ácido clorhídrico, el hierro deja de ser hierro. Ninguna propiedad sencilla sirve por sí sola para reconocer una sustancia."
+  },
+  {
+   "id": "intensivas", "titulo": "Propiedades extensivas e intensivas",
+   "visual": {"termino": "Extensivas e intensivas", "definicion": "La segunda clasificación depende de si la propiedad cambia con la cantidad de materia.", "comparar": [["Extensiva", "<mark class=\"key\">Depende</mark> de la cantidad de materia. También se llama general.", "Peso, masa, volumen. 10 litros de agua pesan más que 1 litro."], ["Intensiva", "<mark class=\"key\">No depende</mark> de la cantidad de materia. También se llama específica. Permite identificar una sustancia.", "Densidad, punto de fusión, punto de ebullición, conductividad, índice de refracción."]], "nota": "La densidad del aluminio es 2,698 g/cm³ a 20 °C, sin importar cuánto aluminio haya. El agua hierve a 100 °C solo cuando la presión exterior es de 1 atmósfera."},
+   "pasos": ["Propiedad extensiva: depende de la cantidad de materia.", "Ejemplos: peso, masa y volumen.", "Propiedad intensiva: no depende de la cantidad de materia.", "Ejemplos: densidad, punto de fusión, punto de ebullición.", "Las intensivas dependen de las condiciones externas, como la presión o la temperatura.", "Por eso el agua hierve a 100 °C a 1 atmósfera de presión.", "Las propiedades intensivas permiten identificar una sustancia."],
+   "texto": "Las propiedades extensivas o generales son aquellas que dependen de la cantidad de materia. Por ejemplo el peso, la masa y el volumen. Las propiedades intensivas o específicas son aquellas que no dependen de la cantidad de materia considerada. Por ejemplo la densidad, los puntos de ebullición y de fusión, la conductividad térmica y eléctrica, el índice de refracción y la forma cristalina. La densidad del aluminio es dos coma seis nueve ocho gramos por centímetro cúbico a veinte grados, sin importar la cantidad de aluminio. Las propiedades intensivas dependen de las condiciones externas. Por eso no es correcto decir que el agua hierve a cien grados: hierve a cien grados cuando la presión exterior es de una atmósfera. Las propiedades intensivas permiten identificar una sustancia."
+  }
+ ]
+}

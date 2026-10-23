@@ -1,0 +1,274 @@
+[
+ {
+  "id": 1,
+  "titulo": "Qué es la química",
+  "modulo": 1,
+  "youtubeId": "mdEYUTeIV6U",
+  "duracion": null,
+  "tituloOriginal": "¿Qué es la QUÍMICA?",
+  "canal": "2pi",
+  "url": "https://www.youtube.com/watch?v=mdEYUTeIV6U",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 2,
+  "titulo": "Materia, masa y peso",
+  "modulo": 1,
+  "youtubeId": "fBe80teqV64",
+  "duracion": null,
+  "tituloOriginal": "Masa y Peso (diferencia y ejemplos)",
+  "canal": "LaProfeLú",
+  "url": "https://www.youtube.com/watch?v=fBe80teqV64",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 3,
+  "titulo": "Propiedades de la materia",
+  "modulo": 1,
+  "youtubeId": "qEDsIpp27K8",
+  "duracion": null,
+  "tituloOriginal": "Propiedades de la materia: generales, específicas y químicas",
+  "canal": "Profe Diana Acevedo",
+  "url": "https://www.youtube.com/watch?v=qEDsIpp27K8",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 4,
+  "titulo": "Energía cinética y potencial",
+  "modulo": 2,
+  "youtubeId": "5aEPVsV1KRs",
+  "duracion": null,
+  "tituloOriginal": "Diferencias entre Energía cinética, Energía Potencial y Energía Interna",
+  "canal": "Ingeniería y Química Fácil con Dr. Andagon",
+  "url": "https://www.youtube.com/watch?v=5aEPVsV1KRs",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 5,
+  "titulo": "Conservación de la energía",
+  "modulo": 2,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 6,
+  "titulo": "E=mc² explicado",
+  "modulo": 2,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 7,
+  "titulo": "Sistemas materiales",
+  "modulo": 3,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 8,
+  "titulo": "Homogéneo versus heterogéneo",
+  "modulo": 3,
+  "youtubeId": "U7e2AG7AZ40",
+  "duracion": null,
+  "tituloOriginal": "Sistemas Materiales, fases, componentes. Sistemas homogéneos y heterogéneos",
+  "canal": "Fernando Poropat",
+  "url": "https://www.youtube.com/watch?v=U7e2AG7AZ40",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 9,
+  "titulo": "Separación de fases",
+  "modulo": 3,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 10,
+  "titulo": "Soluciones y coloides",
+  "modulo": 4,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 11,
+  "titulo": "Efecto Tyndall",
+  "modulo": 4,
+  "youtubeId": "o5goeGzFwek",
+  "duracion": null,
+  "tituloOriginal": "EFECTO TYNDALL EN SOLUCIONES, SUSPENSIONES Y COLOIDES",
+  "canal": "BIONICA",
+  "url": "https://www.youtube.com/watch?v=o5goeGzFwek",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 12,
+  "titulo": "Fenómenos físicos y químicos",
+  "modulo": 5,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 13,
+  "titulo": "Estados de agregación",
+  "modulo": 5,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 14,
+  "titulo": "Cambios de estado",
+  "modulo": 5,
+  "youtubeId": "GYMnp5yRlfw",
+  "duracion": null,
+  "tituloOriginal": "CAMBIOS de ESTADO en la MATERIA",
+  "canal": "Clases Particulares en Ávila",
+  "url": "https://www.youtube.com/watch?v=GYMnp5yRlfw",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 15,
+  "titulo": "Gráfico de calentamiento",
+  "modulo": 5,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 16,
+  "titulo": "Teoría atómica de Dalton",
+  "modulo": 6,
+  "youtubeId": "niwTksrlfgk",
+  "duracion": null,
+  "tituloOriginal": "El MODELO ATÓMICO DE DALTON explicado: postulados y errores",
+  "canal": "Astraway",
+  "url": "https://www.youtube.com/watch?v=niwTksrlfgk",
+  "fecha": null,
+  "consulta": "2026-10-23"
+ },
+ {
+  "id": 17,
+  "titulo": "Átomo y molécula",
+  "modulo": 6,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 18,
+  "titulo": "Alotropía",
+  "modulo": 6,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 19,
+  "titulo": "Isótopos",
+  "modulo": 6,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 20,
+  "titulo": "Modelo atómico",
+  "modulo": 7,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 21,
+  "titulo": "Número atómico y másico",
+  "modulo": 7,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 22,
+  "titulo": "Peso atómico y molecular",
+  "modulo": 7,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 23,
+  "titulo": "El mol y Avogadro",
+  "modulo": 7,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 24,
+  "titulo": "Leyes de las combinaciones",
+  "modulo": 8,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 25,
+  "titulo": "Tabla periódica",
+  "modulo": 8,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 26,
+  "titulo": "Compuestos binarios",
+  "modulo": 9,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 27,
+  "titulo": "Compuestos ternarios",
+  "modulo": 9,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 28,
+  "titulo": "Reacciones químicas",
+  "modulo": 10,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 29,
+  "titulo": "Balanceo de ecuaciones",
+  "modulo": 10,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ },
+ {
+  "id": 30,
+  "titulo": "Estequiometría",
+  "modulo": 11,
+  "youtubeId": null,
+  "duracion": null,
+  "canal": null
+ }
+]

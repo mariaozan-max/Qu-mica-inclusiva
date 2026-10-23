@@ -1,0 +1,48 @@
+/* Juegos: quiz, memoria, clasificar, fórmulas, balancear y calcular */
+.q { border: 1px solid var(--border); border-radius: 14px; margin: 0; }
+.q legend { font-weight: 700; padding: 0 0.4rem; font-size: 1.1rem; }
+.opt { position: relative; display: flex; gap: 0.7rem; align-items: center; padding: 0.7rem 0.9rem; border: 2px solid var(--border); border-radius: 12px; background: var(--surface); cursor: pointer; min-height: 3rem; }
+.opt input { width: 1.25rem; height: 1.25rem; accent-color: var(--accent); flex: none; }
+.opt:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.opt:has(input:focus-visible) { outline: 3px solid var(--focus); outline-offset: 2px; }
+.opt.off { opacity: 0.45; text-decoration: line-through; }
+.opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.opt.wrong { border-color: var(--err); background: var(--err-soft); }
+.opt.right::after { content: '✓ correcta'; margin-left: auto; font-weight: 700; color: var(--ok); }
+.opt.wrong::after { content: '✗ tu respuesta'; margin-left: auto; font-weight: 700; color: var(--err); }
+
+.mem-grid { display: grid; grid-template-columns: repeat(var(--cols, 4), minmax(0, 1fr)); gap: 0.6rem; }
+@media (max-width: 520px) { .mem-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.mem { min-height: 5.2rem; padding: 0.5rem; border-radius: 14px; border: 2px solid var(--accent); background: var(--accent); color: var(--accent-fg); font: inherit; font-weight: 700; cursor: pointer; display: grid; place-items: center; text-align: center; overflow-wrap: anywhere; }
+.mem[data-state="up"] { background: var(--surface); color: var(--fg); }
+.mem[data-state="done"] { background: var(--ok-soft); border-color: var(--ok); color: var(--fg); cursor: default; }
+.mem:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.mem-face { font-size: 1rem; }
+.mem[data-state="down"] .mem-face { font-size: 1.8rem; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; min-height: 2.6rem; }
+.chip { font: inherit; padding: 0.5rem 0.9rem; border-radius: 999px; border: 2px solid var(--border); background: var(--surface); color: var(--fg); cursor: pointer; min-height: 2.6rem; text-align: left; }
+.chip.sel { border-color: var(--accent); background: var(--accent-soft); font-weight: 700; }
+.chip.good { border-color: var(--ok); background: var(--ok-soft); }
+.chip.bad { border-color: var(--err); background: var(--err-soft); }
+.chip:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.bucket h3 { margin: 0; }
+.bucket .chips { min-height: 2.6rem; border: 2px dashed var(--border); border-radius: 12px; padding: 0.4rem; }
+
+.part-row { align-items: stretch; }
+.part { min-width: 8rem; text-align: center; justify-items: center; }
+.ion { font-size: 1.6rem; font-weight: 700; }
+.n { display: inline-block; min-width: 2rem; text-align: center; font-size: 1.3rem; font-weight: 700; }
+.formula-big { font-size: 2.2rem; font-weight: 700; text-align: center; padding: 0.5rem; border: 2px dashed var(--border); border-radius: 12px; }
+.formula sub, .ion sub, .chip sub, .opt sub { font-size: 0.65em; }
+
+.eq { display: flex; flex-wrap: wrap; align-items: center; gap: 0.7rem; font-size: 1.3rem; }
+.eq .sp { display: grid; justify-items: center; gap: 0.3rem; padding: 0.5rem 0.7rem; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.eq .op { font-size: 1.6rem; font-weight: 700; }
+table.atoms { border-collapse: collapse; width: 100%; }
+table.atoms th, table.atoms td { padding: 0.35rem 0.6rem; border-bottom: 1px solid var(--border); text-align: left; }
+table.atoms caption { text-align: left; font-weight: 700; margin-bottom: 0.3rem; }
+#ans { font: inherit; font-size: 1.2rem; padding: 0.5rem 0.7rem; border: 2px solid var(--border); border-radius: 10px; width: 9rem; background: var(--surface); color: var(--fg); }
+#ans:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+@media (max-width: 520px) { .eq { gap: 0.4rem; font-size: 1.1rem; } .eq .sp { padding: 0.35rem 0.4rem; } .eq .op { font-size: 1.3rem; } }
